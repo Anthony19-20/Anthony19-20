@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html"; charset="UTF-8" />
+        <title>Calculatrice</title>
+    </head>
+    <body bgcolor="#563419" text="silver">
+        <h1> Calculatrice </h1>
+    <form method="POST" action="traitement_Calcul.php">
+    <fieldset>
+    <legend>Calcul</legend>
+    Rentrez vos nombres :
+    <input type="number" name="nbr_1" size="10" maxlength="20" />
+
+    <select name="sign">
+        <option value="*">*</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+    </select>
+
+    <input type="number" name="nbr_2" size="10" maxlength="20" />
+
+    <input type="submit" value="="/><br />
+
+    </fieldset>
+    </form>
+    </body>
+</html>
