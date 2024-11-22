@@ -1,0 +1,206 @@
+$font: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+$font-size: 16px;
+$background-color: #FFFFFF;
+* {
+	box-sizing: border-box;
+	font-family: $font;
+    font-size: $font-size;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: $background-color;
+	margin: 0;
+}
+$navtop-background-color: #3f69a8;
+.navtop {
+	background-color: $navtop-background-color;
+	height: 60px;
+	width: 100%;
+	border: 0;
+	div {
+		display: flex;
+		margin: 0 auto;
+		width: 1000px;
+		height: 100%;
+		h1, a {
+			display: inline-flex;
+			align-items: center;
+		}
+		h1 {
+			flex: 1;
+			font-size: 24px;
+			padding: 0;
+			margin: 0;
+			color: mix(#fff, $navtop-background-color, 90);
+			font-weight: normal;
+		}
+		a {
+			padding: 0 20px;
+			text-decoration: none;
+			color: mix(#fff, $navtop-background-color, 70);
+			font-weight: bold;
+			i {
+				padding: 2px 8px 0 0;
+			}
+			&:hover {
+				color: mix(#fff, $navtop-background-color, 90);
+			}
+		}
+	}
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	h2 {
+		margin: 0;
+		padding: 25px 0;
+		font-size: 22px;
+		border-bottom: 1px solid mix(#000, $background-color, 8);
+		color: darken($background-color, 60);
+	}
+}
+$read-table-color-scheme: #ebeef1;
+.read {
+	.create-contact {
+		display: inline-block;
+		text-decoration: none;
+		background-color: #38b673;
+		font-weight: bold;
+		font-size: 14px;
+		color: #FFFFFF;
+		padding: 10px 15px;
+		margin: 15px 0;
+		&:hover {
+			background-color: darken(#38b673, 5);
+		}
+	}
+	.pagination {
+		display: flex;
+		justify-content: flex-end;
+		a {
+			display: inline-block;
+			text-decoration: none;
+			background-color: mix(#000, $read-table-color-scheme, 30);
+			font-weight: bold;
+			color: #FFFFFF;
+			padding: 5px 10px;
+			margin: 15px 0 15px 5px;
+			&:hover {
+				background-color: mix(#000, $read-table-color-scheme, 35);
+			}
+		}
+	}
+	table {
+		width: 100%;
+		padding-top: 30px;
+		border-collapse: collapse;
+		thead {
+			background-color: $read-table-color-scheme;
+			border-bottom: 1px solid darken($read-table-color-scheme, 8);
+			td {
+				padding: 10px;
+				font-weight: bold;
+				color: mix(#000, $read-table-color-scheme, 50);
+				font-size: 14px;
+			}
+		}
+		tbody {
+			tr {
+				border-bottom: 1px solid darken($read-table-color-scheme, 8);
+				&:nth-child(even) {
+					background-color: lighten($read-table-color-scheme, 5.4);
+				}
+				&:hover {
+					background-color: #376ab7;
+					td {
+						color: #FFFFFF;
+						&:nth-child(1) {
+							color: #FFFFFF;
+						}
+					}
+				}
+				td {
+					padding: 10px;
+					&:nth-child(1) {
+						color: mix(#000, $read-table-color-scheme, 30);
+					}
+					&.actions {
+						padding: 8px;
+						text-align: right;
+						.edit, .trash {
+							display: inline-flex;
+							text-align: right;
+							text-decoration: none;
+							color: #FFFFFF;
+							padding: 10px 12px;
+						}
+						.trash {
+							background-color: #b73737;
+							&:hover {
+								background-color: darken(#b73737, 5);
+							}
+						}
+						.edit {
+							background-color: #37afb7;
+							&:hover {
+								background-color: darken(#37afb7, 5);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.update {
+	form {
+		padding: 15px 0;
+		display: flex;
+		flex-flow: wrap;
+		label {
+			display: inline-flex;
+			width: 400px;
+			padding: 10px 0;
+			margin-right: 25px;
+		}
+		input {
+			padding: 10px;
+			width: 400px;
+			margin-right: 25px;
+			margin-bottom: 15px;
+			border: 1px solid mix(#000, $background-color, 20);
+		}
+		input[type="submit"] {
+			display: block;
+			background-color: #38b673;
+			border: 0;
+			font-weight: bold;
+			font-size: 14px;
+			color: #FFFFFF;
+			cursor: pointer;
+			width: 200px;
+			margin-top: 15px;
+			&:hover {
+				background-color: darken(#38b673, 5);
+			}
+		}
+	}
+}
+.delete {
+	.yesno {
+		display: flex;
+		a {
+			display: inline-block;
+			text-decoration: none;
+			background-color: #38b673;
+			font-weight: bold;
+			color: #FFFFFF;
+			padding: 10px 15px;
+			margin: 15px 10px 15px 0;
+			&:hover {
+				background-color: darken(#38b673, 5);
+			}
+		}
+	}
+}
