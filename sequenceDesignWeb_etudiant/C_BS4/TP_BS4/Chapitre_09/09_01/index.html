@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+   <main class="container-fluid mb-4">
+       <section class="row my-4">
+          <!--Begin Breadcrumb-->
+           <nav class="col-12">
+               <ol class="breadcrumb">
+                   <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                   <li class="breadcrumb-item active">Contact</li>
+               </ol>
+           </nav>
+           <!--End Breadcrumb-->
+           <section class="col-12 col-md-6 mb3">
+               <h1 class="h3">Nous contacter</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, fugiat. Porro illum odio veniam deleniti maxime eum debitis cupiditate laborum architecto temporibus sint mollitia cumque, illo, dolore totam autem eveniet.</p>
+               <p>Officiis inventore eveniet a dignissimos. Explicabo expedita omnis illo consequuntur, error fuga deserunt quod, voluptatibus quos maxime perspiciatis corporis, rerum, doloremque rem libero facere iste minus. Placeat et iure quisquam.</p>
+           </section><!--End First Column-->
+           <section class="col-12 col-md-6">
+               <form action="">
+                   <h1 class="h3">Formulaire de contact</h1>
+                   <fieldset>
+                       <legend>Informations personnelles</legend>
+                       <!--First Name-->
+                       <div class="form-group">
+                           <label for="fName" class="d-none d-md-block" data-toggle="tooltip" title="">
+                               Votre prénom
+                           </label>
+                           <input type="text" name="fName" id="fName" class="form-control" placeholder="Votre prénom" />
+                       </div>
+                       <!--End First Name-->
+                       <!--Last Name-->
+                       <div class="form-group">
+                           <label for="lName" class="d-none d-md-block">Votre nom de famille</label>
+                           <input type="text" name="lName" id="lName" class="form-control" placeholder="Votre nom de famille" />
+                       </div>
+                       <!--End Last Name-->
+                       <!--Email-->
+                       <div class="form-group">
+                           <label for="email" class="d-none d-md-block">Votre adresse email</label>
+                           <input type="email" name="email" id="email" class="form-control" placeholder="Votre adresse email" />
+                           <small class="form-text text-muted">Nous ne partagerons pas votre adresse email avec des tiers.</small>
+                       </div>
+                       <!--End Email-->
+                       <!--Country-->
+                       <div class="form-group">
+                           <label for="country" class="d-none d-md-block">Votre pays</label>
+                           <select name="country" id="country" class="form-control">
+                               <option value="0">--Choisissez votre pays--</option>
+                               <option value="BE">Belgique</option>
+                               <option value="CA">Canada</option>
+                               <option value="FR">France</option>
+                               <option value="CH">Suisse</option>
+                           </select>
+                       </div>
+                       <!--End Country-->
+                   </fieldset>
+                   <fieldset>
+                       <legend>Vos préférences</legend>
+                       <!--Newsletter-->
+                       <div class="form-group">
+                           <p class="h6">Désirez-vous vous inscrire à notre newsleter ?</p>
+                           <div class="form-check form-check-inline">
+                               <label class="form-check-label">
+                                   <input type="radio" name="newsletter" value="true" class="form-check-input">Oui
+                               </label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                               <label class="form-check-label">
+                                   <input type="radio" name="newsletter" value="false" checked class="form-check-input">Non
+                               </label>
+                           </div>
+                       </div>
+                       <!--End Newsletter-->
+                       <!--How-->
+                       <div class="form-group">
+                           <p class="h6">Comment avez-vous entendu parler de nous ?<span class="text-muted">(Plusieurs réponses possibles).</span></p>
+                           
+                           <div class="form-check form-check-inline">
+                               <label class="form-check-label">
+                                   <input type="checkbox" name="how" value="social" class="form-check-input">Réseaux sociaux
+                               </label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                               <label class="form-check-label">
+                                   <input type="checkbox" name="how" value="ad" class="form-check-input">Publicité
+                               </label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                               <label class="form-check-label">
+                                   <input type="checkbox" name="how" value="mtw" class="form-check-input">Bouche-à-oreille
+                               </label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                               <label class="form-check-label">
+                                   <input type="checkbox" name="how" value="cat" class="form-check-input">Catalogue
+                               </label>
+                           </div>
+                       </div>
+                       <!--End How-->
+                   </fieldset>
+                   <fieldset>
+                       <legend>Votre message</legend>
+                       <!--Message-->
+                       <div class="form-group">
+                           <textarea name="messsage" id="messsage" rows="5" class="form-control"></textarea>
+                       </div>
+                       <!--End Message-->
+                   </fieldset>
+                   <!--Submit-->
+                   <button type="submit" class="btn btn-primary">Envoyer !</button>
+               </form>
+           </section><!--End Seconf column-->
+       </section><!--End Row-->
+   </main><!--end main.container-fluid-->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
