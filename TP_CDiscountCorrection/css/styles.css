@@ -1,0 +1,47 @@
+#container {
+	display:flex;
+	flex-direction:column;
+	max-width=900px;
+	margin:3 auto;
+}
+#containerM {
+	display:flex;
+	flex-direction:row;
+}
+aside {
+	flex:2;
+}
+article {
+	flex:5;
+}
+nav {
+	flex:1;
+}
+header,footer {
+	background: #5b4e00;
+	color:white;
+	text-align:center;
+}
+article,aside,nav {
+	padding:5px;
+}
+article h2:first-child {
+	margin-top:0;
+}
+aside,nav {
+	background:#eee;
+}
+aside h2,nav h2 {
+	margin:0;
+}
+nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+nav ul a {
+	text-decoration:none;
+}
+nav ul a:hover {
+	text-decoration:underline;
+}
