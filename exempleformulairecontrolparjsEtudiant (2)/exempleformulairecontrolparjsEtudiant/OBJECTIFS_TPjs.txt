@@ -1,0 +1,27 @@
+OBJECTIF A ATTEINDRE :
+ouvrir contact.html dans un  navigateur
+les informations de circuit dans le paragraphe 
+INFORMATIONS GENERALES DU FORMULAIRE apparaissent...
+sous forme de boites à cocher :
+- sac à dos
+- au calme
+- sources chaudes
+- à vélo
+etc...
+
+TRAVAIL 1 DEMANDE
+au départ les boites à cocher devront dorénavant être cachées
+(déjà vu dans les mini TP js)
+une boite à cocher à coté de la phrase 
+"je voudrais plus d'information" devra apparaitre.
+SI ELLE EST COCHEE les boites à cocher:
+- sac à dos
+- au calme
+- sources chaudes
+- à vélo
+etc...
+DEVRONT APPARAITRE !!!!
+
+TRAVAIL 2 DEMANDE :
+faire vérifier par js que l'email saisi possède bien un "@" et un ".fr".
+Un prémisce de travail sur ce point existe dans le script.js, s'en servir !!!!

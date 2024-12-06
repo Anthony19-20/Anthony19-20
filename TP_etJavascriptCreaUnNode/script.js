@@ -1,26 +1,24 @@
-/* une nécessité d'afficher un menu nouveau, un message d'erreur, une promotion ??? */
-/* etudions ce qui suit ... */
-
 function creationNode(){
+    var chaine="P !! Je suis ... Ton frère ! Un autre p ! Fils de article comme toi ...";
+    //var msgArct = document.getElementById('text');
+    var msgImage = document.getElementById('mainImage');
+    msgImg = document.createElement('img');
+    msgImg.setAttribute("src", "./images/riviere.jpg");
+    msgImg.style.display="block";
+    msgImage.appendChild(msgImg);
 
-    var chaine=" p !! je suis ... ton frère ! un autre p ! fils de article comme toi ...";
-    var msgArct = document.getElementById('ici');
-
-    msgErr = document.createElement('p');
+    /*msgErr = document.createElement('p');
     msgErr.id = "msg-err";
     msgErr.textContent = chaine;
-    msgErr.style.color = "red";
-    msgArct.appendChild(msgErr);
+    msgErr.style.color = "black";
+    msgArct.appendChild(msgErr);*/
 
-   
-    document.body.style.backgroundColor = 'yellow';
-
+    document.body.style.backgroundColor = 'grey';
 }
 
 function creationNodeRetardee(){
-    setTimeout(creationNode,3000);
+    setTimeout(creationNode,1000);
 }
-
 
 window.onload=function(){
     creationNodeRetardee();

@@ -1,0 +1,44 @@
+#container {
+	display:flex;
+	flex-direction:column;
+	max-width:900px;
+	margin:3 auto;
+}
+#containerM {
+	display:flex;
+	flex-direction:row;
+}
+aside {
+	flex:3;
+	background-color: coral;
+}
+article {
+	flex:5;
+	background-color: azure;
+}
+nav {
+	flex:2;
+	background:#00aeff;
+}
+header{
+	background: #005b56;
+	color:#0a3c7e;
+	text-align:center;
+}
+footer{
+	background: #ffd900;
+	color:#bb6e16;
+	text-align:center;
+}
+article,aside,nav {
+	padding:5px;
+}
+article h2:first-child {
+	margin-top:0;
+}
+aside h2,nav h2 {
+	margin:0;
+}
+h2{
+	color:red;
+}

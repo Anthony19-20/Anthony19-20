@@ -1,0 +1,69 @@
+.playground {
+    width: 900px;
+    height: 830px;
+    border: 2px solid #000;
+    position: relative;
+    margin: 20px auto;
+    box-sizing: content-box;
+}
+
+.movable-box {
+    width: 90px;
+    height: 90px;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.lign_1 {
+    position: relative;
+    top: 100px;
+    width:740px;
+    border:2px solid green;
+    left: 156px;
+}
+
+.lign_2 {
+    position: relative;
+    top: 200px;
+    width:740px;
+    border:2px solid green;
+}
+
+.lign_3 {
+    position: relative;
+    top: 300px;
+    width:740px;
+    border:2px solid green;
+    left: 156px;
+}
+
+.lign_4 {
+    position: relative;
+    top: 400px;
+    width:740px;
+    border:2px solid green;
+}
+
+.lign_5 {
+    position: relative;
+    top: 500px;
+    width:740px;
+    border:2px solid green;
+    left: 156px;
+}
+
+.lign_6 {
+    position: relative;
+    top: 600px;
+    width:740px;
+    border:2px solid green;
+}
+
+.lign_7 {
+    position: relative;
+    top: 700px;
+    width:740px;
+    border:2px solid green;
+    left: 156px;
+}

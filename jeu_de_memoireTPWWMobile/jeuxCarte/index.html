@@ -1,0 +1,66 @@
+<!-- auteur macgile 2013, modifié DNarelli 2020 pour le Titre Professionnel WWMobile -->
+<!-- il y a encore des restes de html 4, amélioration pour plus tard -->
+<!DOCTYPE html>
+<html>
+  <head>  
+      <title>Jeu de mémoire</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+      <script  src="js/moteurJeu.js"></script>
+  </head>
+  <body>
+    <!-- une table pour de l'affichage de mouchards de debug et les options choisies par le joueur -->
+    <table border=0 width=70% align=center cellspacing="2" cellpadding="2" >
+      <tr>
+      	<td colspan=2>
+      		<div id="DivDebug" style="display:none;" >
+      	   <table width=100% align=center cellspacing="0" cellpadding="0" border=0 >
+             <tr>
+             	 <td> Nbr Gagner :       </td><td  align=left id="NbrGagner" width=5% >&nbsp;&nbsp;</td>
+               <td> Valeurs Aléatoire: </td><td  align=left id="MSG">&nbsp;&nbsp;</td>
+             </tr>
+             <tr>
+               <td> Tentatives : </td><td align=left id="Try">&nbsp;&nbsp;</td>
+               <td> Paires Ok  : </td><td align=left id="paires">&nbsp;&nbsp;</td>
+             </tr>
+           </table>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        	<label for="tempo"> Niveaux de Difficulté  </label>
+        	<select id="tempo" onchange="Tempor = this[this.selectedIndex].value;">
+        		<option value=1500>Facile</option>
+        		<option value=1000 selected>Moyen</option>
+        		<option value=500>Dur</option>
+        		<option value=200>Trés Dur</option>
+        	</select>
+        </td>
+        <td>
+           <input id="Rejouer" type="button" value="Rejouer" onclick="InitCarte();" disabled>
+        </td>        
+        </tr>
+    </table>
+    <br>
+    <!-- une table pour disposer les cartes -->
+   <table border=0  align=center cellspacing="1" cellpadding="1" >
+     <tbody id=TabCarte>
+      <tr>
+        <!-- 4 td cellules cartes en ligne 1 L1 -->
+       <td id="0"  class=Back>&nbsp;</td> 
+       <td id="1"  class=Back>&nbsp;</td>
+       <td id="2"  class=Back>&nbsp;</td>
+       <td id="3"  class=Back>&nbsp;</td>
+      </tr>
+      <tr>
+        <!-- 4 td cellules cartes en ligne 2 L2 -->
+       <td id="4"  class=Back>&nbsp;</td>
+       <td id="5"  class=Back>&nbsp;</td>
+       <td id="6"  class=Back>&nbsp;</td>
+       <td id="7"  class=Back>&nbsp;</td>
+      </tr>
+    </tbody>
+   </table>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.cartes, .Back, .Front, .Perdu{
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 0px solid gray;
+  cursor: pointer;
+
+  /* La Largeur d'une Image */
+  width: 118px;
+
+  /* La Hauteur d'une Image */
+  height: 186px;
+}
+
+.Back {
+  z-index : 10;
+  background-image: url(../img/Back.jpg);
+}
