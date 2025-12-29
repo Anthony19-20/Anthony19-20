@@ -1,6 +1,6 @@
 # Bonjour à vous 👋
 ## Comment allez vous ? ☺️
-### Voici mon GitHub, je mettrais mes projets (personnelles et professionnelles) ici !
+### Voici mon GitHub, je mettrais mes projets (personnelles et professionnelles) ici ! 👌
 
 <!--
 **Anthony19-20/Anthony19-20** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
