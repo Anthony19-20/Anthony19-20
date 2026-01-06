@@ -1,0 +1,165 @@
+#root {
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebd8;
+}
+
+a {
+    text-decoration: none;
+    color: #784c21;
+}
+
+nav {
+    border: 3px solid transparent;
+    background-color: #b5b5b5;
+    height: 50px;
+}
+
+nav>ul>li {
+    margin: 0;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+nav>ul>li>a {
+    display: block;
+    color: #784c21;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav>ul>li>a:hover {
+    color: #784c21;
+    background-color: #ffebd8;
+}
+
+.title {
+    text-align: center;
+    color: #784c21;
+}
+
+form {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cook {
+    height: 40px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #784c21;
+    background-color: #ffebd8;
+    text-align: center;
+    color: #784c21;
+    box-shadow: 0 0 5px #784c21;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.suggestions {
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+}
+
+.recettes {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+p {
+    text-align: center;
+    color: #784c21;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.active {
+    color: #ffebd8;
+    font-weight: bold;
+    box-shadow: 0 0 10px #784c21;
+}
+
+.btn {
+    height: 43.5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #784c21;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.btn:hover {
+    border: 2px solid #646cff;
+}
+
+h1 {
+    color: #784c21;
+    margin-top: 30px;
+}
+
+.recipe-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #784c21;
+    width: 750px;
+    height: 100px;
+    background-color: #ffebd8;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 0 15px #784c21;
+    cursor: pointer;
+}
+
+.btn-2 {
+    height: 40px;
+    width: 27px;
+    border: 1px solid transparent;
+    background-color: #784d21b2;
+    cursor: pointer;
+    background-image: url('../images/Marque_Page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+}
+
+.btn-2:hover {
+    box-shadow: 0 0 10px #784c21;
+}
