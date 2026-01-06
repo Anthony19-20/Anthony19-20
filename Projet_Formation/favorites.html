@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favoris</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
@@ -16,87 +17,77 @@
         </ul>
     </nav>
     <h1 class="title">Your favorites :</h1>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                Recette 1
+    <div id="favorites-container">
+    </div>
+    <main>
+        <h2 class="title">Suggestions :</h2>
+
+        <section>
+            <p>More sweet :</p>
+
+            <div class="recipe-card">
+                <a href="#" class="suggestions">
+                    <img src="./images/Gateau_au_chocolat_fondant.jpg" alt="Gâteau au chocolat fondant"
+                        class="recipe-img">
+                    <span>Gâteau au chocolat fondant</span>
+                </a>
+                <button class="btn-2 js-fav-btn" data-name="Gâteau au chocolat fondant"
+                    data-img="./images/Gateau_au_chocolat_fondant.jpg">
+                </button>
             </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                Recette 2
+
+            <div class="recipe-card">
+                <a href="#" class="suggestions">
+                    <img src="./images/Tarte_aux_pommes.jpg" alt="Tarte aux pommes" class="recipe-img">
+                    <span>Tarte aux pommes</span>
+                </a>
+                <button class="btn-2 js-fav-btn" data-name="Tarte aux pommes" data-img="./images/Tarte_aux_pommes.jpg">
+                </button>
             </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                Recette 3
+
+            <div class="recipe-card">
+                <a href="#" class="suggestions">
+                    <img src="./images/Eclair_a_la_vanille.jpg" alt="Éclair à la vanille" class="recipe-img">
+                    <span>Éclair à la vanille</span>
+                </a>
+                <button class="btn-2 js-fav-btn" data-name="Éclair à la vanille"
+                    data-img="./images/Eclair_a_la_vanille.jpg">
+                </button>
             </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <h2 class="title">Suggestions :</h2>
-    <p>More sweet :</p>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                <img src="./images/Gateau_au_chocolat_fondant.jpg" alt="Gâteau au chocolat fondant" class="recipe-img">
-                Gâteau au chocolat fondant
+        </section>
+
+        <section>
+            <p>More spicy :</p>
+
+            <div class="recipe-card">
+                <a href="#" class="suggestions">
+                    <img src="./images/Chili_Con_Carne.jpg" alt="Chili con carne" class="recipe-img">
+                    <span>Chili Con Carne</span>
+                </a>
+                <button class="btn-2 js-fav-btn" data-name="Chili Con Carne" data-img="./images/Chili_Con_Carne.jpg">
+                </button>
             </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                <img src="./images/Tarte_aux_pommes.jpg" alt="Tarte aux pommes" class="recipe-img">
-                Tarte aux pommes
+
+            <div class="recipe-card">
+                <a href="#" class="suggestions">
+                    <img src="./images/Pates_Tunisiennes.jpg" alt="Pâtes Tunisiennes" class="recipe-img">
+                    <span>Pâtes Tunisiennes</span>
+                </a>
+                <button class="btn-2 js-fav-btn" data-name="Pâtes Tunisiennes"
+                    data-img="./images/Pates_Tunisiennes.jpg">
+                </button>
             </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                <img src="./images/Eclair_a_la_vanille.jpg" alt="Éclair à la vanille" class="recipe-img">
-                Éclair à la vanille
+
+            <div class="recipe-card">
+                <a href="#" class="suggestions">
+                    <img src="./images/Curry_Indien.jpg" alt="Curry Indien" class="recipe-img">
+                    <span>Curry Indien</span>
+                </a>
+                <button class="btn-2 js-fav-btn" data-name="Curry Indien" data-img="./images/Curry_Indien.jpg">
+                </button>
             </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <p>More spicy :</p>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                <img src="./images/Chili_Con_Carne.jpg" alt="Chili con carne" class="recipe-img">
-                Chili Con Carne
-            </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                <img src="./images/Pates_Tunisiennes.jpg" alt="Pâtes Tunisiennes" class="recipe-img">
-                Pâtes Tunisiennes
-            </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
-    <a href="" class="recettes">
-        <div class="recipe-card">
-            <div class="suggestions">
-                <img src="./images/Curry_Indien.jpg" alt="Curry Indien" class="recipe-img">
-                Curry Indien
-            </div>
-            <button class="btn-2"></button>
-        </div>
-    </a>
+        </section>
+    </main>
 </body>
 
 </html>

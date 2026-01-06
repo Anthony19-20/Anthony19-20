@@ -101,7 +101,6 @@ p {
 
 .active {
     color: #ffebd8;
-    font-weight: bold;
     box-shadow: 0 0 10px #784c21;
 }
 
@@ -164,6 +163,10 @@ h1 {
 
 .btn-2:hover {
     box-shadow: 0 0 10px #784c21;
+}
+
+.active_btn {
+    background-color: #422178b2;
 }
 
 .recipe-img {
