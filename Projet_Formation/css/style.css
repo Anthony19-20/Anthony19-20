@@ -78,6 +78,9 @@ form {
 }
 
 .suggestions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px auto;
     padding: 20px;
     width: 60%;
@@ -161,4 +164,12 @@ h1 {
 
 .btn-2:hover {
     box-shadow: 0 0 10px #784c21;
+}
+
+.recipe-img {
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #784c21;
+    margin-right: 30px;
 }
