@@ -1,0 +1,4 @@
+index.html : Rechercher par le serveur, donc fichier de base et obligatoire.
+Mettre un site en ligne : Nom de domaine (adresse IP), DNS, hébergeur (louer), choisir plusieurs nom de domaine (au cas où), acheter nom de domaine le plus vite possible.
+Liste hébergeur : OVH, IONOS, 
+Wordpress : Apprendre à l'utiliser (utile)
